@@ -1,5 +1,8 @@
 import React from "react";
-
+//LOGOS SVG
+import facebookSvg from "../assets/svg/facebook.svg";
+import instagramSvg from "../assets/svg/instagram.svg";
+import xSvg from "../assets/svg/x.svg";
 export default function Footer() {
   return (
     <div>
@@ -29,9 +32,21 @@ export default function Footer() {
           </div>
           <div>
             <ul>
-              <li>Faceebok</li>
-              <li>Instagram</li>
-              <li>X</li>
+              <li>
+                <a href="">
+                  <img src={facebookSvg} alt="Facebook" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src={xSvg} alt="Instagram" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src={instagramSvg} alt="X" />X
+                </a>
+              </li>
             </ul>
           </div>
         </div>

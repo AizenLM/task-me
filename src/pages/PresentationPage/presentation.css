@@ -173,37 +173,3 @@ main {
    outline: 0px;
    transition: 600ms;
 }
-
-footer {
-   margin-top: 40px;
-   width: 100%;
-   background-color: var(--bs-green);
-}
-
-.footer-content {
-   margin: auto;
-   width: 70%;
-   display: flex;
-   flex-direction: row;
-   flex-wrap: nowrap;
-   justify-content: space-between;
-   justify-items: center;
-   padding: 20px;
-}
-
-footer h1 {
-   color: white;
-   font-size: xx-large;
-}
-
-footer ul {
-   display: flex;
-   flex: column wrap;
-   gap: 25px;
-   list-style-type: none;
-}
-
-footer a {
-   color: white;
-   text-decoration: none;
-}

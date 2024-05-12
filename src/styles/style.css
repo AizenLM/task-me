@@ -13,7 +13,7 @@
 .content-title {
    background-color: var(--bs-green);
    color: white;
-   padding: 20px;
+   padding: 18px;
    margin-bottom: 20px;
 }
 
@@ -24,7 +24,7 @@
 
 .form-register {
    font-weight: 400;
-   font-size: 20px;
+   font-size: 15px;
    margin: auto;
    margin-top: 50px;
    width: 50%;
@@ -45,7 +45,7 @@
 }
 
 .register-inputs input {
-   font-size: 18px;
+   font-size: 15px;
    margin-bottom: 10px;
    padding: 7px;
    border: 2px solid rgb(240, 240, 240);
@@ -87,4 +87,51 @@
 .ul-hor {
    display: flex;
    flex-direction: column;
+}
+
+
+/* FOOTER */
+
+footer {
+   margin-top: 40px;
+   width: 100%;
+   background-color: var(--bs-green);
+}
+
+.footer-content {
+   margin: auto;
+   width: 85%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   justify-items: center;
+   padding: 20px;
+}
+
+footer h1 {
+   color: white;
+   font-size: xx-large;
+}
+
+footer ul {
+   display: flex;
+   flex: column wrap;
+   gap: 25px;
+   list-style-type: none;
+}
+
+footer a {
+   display: flex;
+   color: white;
+   text-decoration: none;
+}
+
+footer a img {
+   opacity: 80%;
+}
+
+footer a img:hover {
+   opacity: 100%;
+   transform: scale(1.1);
 }
