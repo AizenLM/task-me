@@ -1,4 +1,7 @@
 import React from "react";
+import GoogleSvg from "../../assets/svg/GoogleSvg";
+import MicrosoftSvg from "../../assets/svg/MiscrosoftSvg";
+import DiscordSvg from "../../assets/svg/DiscordSvg";
 
 export default function Register() {
   return (
@@ -21,15 +24,35 @@ export default function Register() {
           <input type="password" />
           <label htmlFor="rep-password">Confirma tu contraseña</label>
           <input type="password" />
-          <p>Acepto terminos y condiciones.</p>
-        </div>
-        <div className="ul-hor">
-          <ul>
-            <li>Facebook</li>
-            <li>Google</li>
-            <li>X</li>
-            <li>Discord</li>
-          </ul>
+          <div className="check-terms">
+            <label htmlFor="checkbox-term">
+              <input type="checkbox" name="checkbox-term" id="term-box" />
+              Acepto los terminos de privacidad
+            </label>
+          </div>
+          <div className="social-buttons">
+            <div className="container-title">
+              <h3>Ingresar con</h3>
+            </div>
+            <div className="container">
+              <button className="social-button">
+                <GoogleSvg />
+                Continuar con Google
+              </button>
+            </div>
+            <div className="container">
+              <button className="social-button">
+                <MicrosoftSvg />
+                Continuar con Microsft
+              </button>
+            </div>
+            <div className="container">
+              <button className="social-button">
+                <DiscordSvg />
+                Continuar con Discord
+              </button>
+            </div>
+          </div>
         </div>
         <div className="control-form">
           <button className="btn-login">Crear cuenta</button>

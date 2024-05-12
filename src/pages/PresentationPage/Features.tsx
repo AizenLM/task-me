@@ -1,14 +1,10 @@
 import React from "react";
-
 export default function Features() {
   return (
     <div className="additional-content">
       <div className="content-register">
         <section className="content-img">
-          <img
-            src="https://colorlib.com/wp/wp-content/uploads/sites/2/colorlib-registration-form-31.jpg"
-            alt="register"
-          />
+          <img src="form-register.png" alt="register" />
         </section>
         <section className="text-content">
           <h3>

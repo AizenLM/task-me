@@ -1,8 +1,10 @@
 import React from "react";
 //LOGOS SVG
-import facebookSvg from "../assets/svg/facebook.svg";
-import instagramSvg from "../assets/svg/instagram.svg";
-import xSvg from "../assets/svg/x.svg";
+
+import FacebookSVG from "../assets/svg/FacebookSvg";
+import InstagramSvg from "../assets/svg/InstagramSvg";
+import XSvg from "../assets/svg/XSvg";
+import YoutubeSvg from "../assets/svg/YoutubeSvg";
 export default function Footer() {
   return (
     <div>
@@ -34,17 +36,22 @@ export default function Footer() {
             <ul>
               <li>
                 <a href="">
-                  <img src={facebookSvg} alt="Facebook" />
+                  <FacebookSVG fill="white" />
                 </a>
               </li>
               <li>
                 <a href="">
-                  <img src={xSvg} alt="Instagram" />
+                  <InstagramSvg fill="white" />
                 </a>
               </li>
               <li>
                 <a href="">
-                  <img src={instagramSvg} alt="X" />X
+                  <XSvg fill="white" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <YoutubeSvg fill="white" />
                 </a>
               </li>
             </ul>
