@@ -11,7 +11,7 @@ export default function Footer() {
       <footer>
         <div className="footer-content">
           <div>
-            <h1>Task Me</h1>
+            <h1>Task Met</h1>
           </div>
           <div>
             <ul>

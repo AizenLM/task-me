@@ -8,7 +8,7 @@ import IndexTaks from "./pages/ContentTask/indexTaks";
 function App() {
   return (
     <div>
-      <IndexTaks></IndexTaks>
+      <Index></Index>
       <Footer />
     </div>
   );
