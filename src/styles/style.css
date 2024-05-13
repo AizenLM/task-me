@@ -187,3 +187,96 @@ footer a,
    opacity: 100%;
    transform: scale(1.2);
 }
+
+/* Page TaskContent */
+.leftSide {
+   width: 15%;
+   padding: 2px;
+   display: flex;
+   flex-direction: column;
+}
+
+.leftSide-Top {
+   background-color: var(--bs-green);
+   text-align: center;
+   padding: 10px;
+   color: white;
+   margin-bottom: 5px;
+}
+
+.leftSide-Top-User {
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 10px;
+   border-top: 1px solid gainsboro;
+}
+
+.nameUser {
+   text-align: center;
+   font-size: medium;
+   font-weight: bolder;
+}
+
+.leftSide-content {
+   border-top: 1px solid gainsboro;
+   display: flex;
+   flex-direction: column;
+}
+
+.leftSide-controlls {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   gap: 5px;
+   background-color: #152b3c;
+   padding: 3px;
+   color: white;
+}
+
+.leftSide-controlls h3 {
+   font-weight: 400;
+}
+
+.leftSide-controlls button {
+   background-color: var(--bs-green);
+   padding: 7px;
+   color: white;
+   font-weight: bold;
+}
+
+.leftSide-group-tasks {
+   background-color: #585d5d;
+   padding: 15px;
+}
+
+.group-task {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   justify-items: center;
+   padding: 7px;
+   border-radius: 15px;
+   border: 2px solid green;
+   margin-bottom: 10px;
+   background: white;
+}
+
+.group-task h3 {
+   text-align: center;
+}
+
+.main-task {
+   padding: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+
+}
+
+.body-content-task {
+   width: 80%;
+   border-radius: 30px;
+   box-shadow: 0px 0px 30px rgba(117, 197, 142, 0.25);
+}

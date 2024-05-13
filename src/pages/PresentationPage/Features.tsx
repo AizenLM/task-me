@@ -1,10 +1,11 @@
 import React from "react";
+import FormRegisterImage from "./form-register.png";
 export default function Features() {
   return (
     <div className="additional-content">
       <div className="content-register">
         <section className="content-img">
-          <img src="form-register.png" alt="register" />
+          <img src={FormRegisterImage} alt="register" />
         </section>
         <section className="text-content">
           <h3>

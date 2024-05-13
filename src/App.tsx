@@ -3,11 +3,12 @@ import "./styles/style.css";
 import Index from "./pages/PresentationPage";
 import Register from "./pages/register/register";
 import Footer from "./components/Footer";
+import IndexTaks from "./pages/ContentTask/indexTaks";
 
 function App() {
   return (
     <div>
-      <Index></Index>
+      <IndexTaks></IndexTaks>
       <Footer />
     </div>
   );
