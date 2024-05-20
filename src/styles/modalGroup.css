@@ -1,0 +1,62 @@
+/* Estilos para el fondo del modal */
+.modal {
+   display: none;
+   /* Ocultar el modal inicialmente */
+   position: fixed;
+   /* Posición fija para que el modal no se mueva con el scroll */
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   /* Fondo semitransparente */
+   z-index: 999;
+   /* Asegurar que el modal esté encima de todo */
+}
+
+/* Estilos para el contenido del modal */
+.modal-content {
+   position: absolute;
+   /* Posición absoluta para centrar el contenido */
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: white;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   color: black;
+}
+
+.modal-content form {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.group-from {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.group-from input,
+textarea {
+   width: 100%;
+   border: 1px solid gainsboro;
+   padding: 5px;
+   font-size: medium;
+}
+
+/* Estilos para el botón de cerrar */
+.close {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   cursor: pointer;
+}
+
+.modal.show {
+   display: block;
+   /* Cambia el valor de display cuando la clase show está presente */
+}
